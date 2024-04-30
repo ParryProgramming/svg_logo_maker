@@ -98,14 +98,14 @@ async function init() {
     user_shape.setColor(user_shape_color);
 
     // Create a new Svg instance and add the shape and text elements to it
-    var svg = new Svg();
+    let svg = new Svg();
     svg.setTextElement(user_text, user_font_color);
     svg.setShapeElement(user_shape);
     svgString = svg.render();
 
     //Print shape to log
     console.log("Displaying shape:\n\n" + svgString);
-    //document.getElementById("svg_image").innerHTML = svgString;
+    
 
     console.log("Shape generation complete!");
     console.log("Writing shape to file...");
