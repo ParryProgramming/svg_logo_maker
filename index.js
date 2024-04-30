@@ -19,7 +19,7 @@ class Svg {
     }
 
 }
-
+// User input
 const questions = [
     {
         type: "input",
